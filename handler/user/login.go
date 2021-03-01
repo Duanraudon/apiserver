@@ -1,12 +1,12 @@
 package user
 
 import (
+	. "apiserver/handler"
+	"apiserver/model"
+	"apiserver/pkg/auth"
+	"apiserver/pkg/errno"
+	"apiserver/pkg/token"
 	"github.com/gin-gonic/gin"
-	. "github.com/yufenghui/apiserver/handler"
-	"github.com/yufenghui/apiserver/model"
-	"github.com/yufenghui/apiserver/pkg/auth"
-	"github.com/yufenghui/apiserver/pkg/errno"
-	"github.com/yufenghui/apiserver/pkg/token"
 )
 
 // @Summary Login generates the authentication token

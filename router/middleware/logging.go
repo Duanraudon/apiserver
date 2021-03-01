@@ -1,13 +1,13 @@
 package middleware
 
 import (
+	"apiserver/handler"
+	"apiserver/pkg/errno"
 	"bytes"
 	"encoding/json"
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
 	"github.com/willf/pad"
-	"github.com/yufenghui/apiserver/handler"
-	"github.com/yufenghui/apiserver/pkg/errno"
 	"io/ioutil"
 	"regexp"
 	"time"

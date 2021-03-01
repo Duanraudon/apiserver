@@ -1,6 +1,11 @@
 package main
 
 import (
+	"apiserver/config"
+	"apiserver/model"
+	v "apiserver/pkg/version"
+	"apiserver/router"
+	"apiserver/router/middleware"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -8,11 +13,6 @@ import (
 	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/yufenghui/apiserver/config"
-	"github.com/yufenghui/apiserver/model"
-	v "github.com/yufenghui/apiserver/pkg/version"
-	"github.com/yufenghui/apiserver/router"
-	"github.com/yufenghui/apiserver/router/middleware"
 	"net/http"
 	"os"
 	"time"

@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"apiserver/pkg/errno"
 	"github.com/gin-gonic/gin"
-	"github.com/yufenghui/apiserver/pkg/errno"
 	"net/http"
 )
 

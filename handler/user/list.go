@@ -1,9 +1,9 @@
 package user
 
 import (
+	. "apiserver/handler"
+	"apiserver/model"
 	"github.com/gin-gonic/gin"
-	. "github.com/yufenghui/apiserver/handler"
-	"github.com/yufenghui/apiserver/model"
 )
 
 // @Summary List the users in the database
